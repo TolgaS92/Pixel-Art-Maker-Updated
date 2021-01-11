@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>PixelArtMaker|TolgaSecme</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body style="margin-bottom: 50px;">
     <h4>Tolga Secme</h4>
     <hr>
     <h1>Pixel Art Maker</h1>
 
     <h2>Choose Grid Size</h2>
-    <h5>Create a table once with desired parameters: height determines number of rows while so does the width do so for number of columns on the table!</h5>
+    <h5>Create a table once with desired parameters: height determines number of rows while so does the width do so for
+        number of columns on the table!</h5>
     <p>Parameters should be between 1 through 99 </p>
     <form id="sizePicker">
         Grid Height:
         <input type="number" id="inputHeight" name="height" min="1" max="99" value="1">
         Grid Width:
-        <input type="number" id="inputWidth" name="width" min="1"  max="99" value="1">
+        <input type="number" id="inputWidth" name="width" min="1" max="99" value="1">
         <input type="submit" id="submit-button">
     </form>
 
@@ -30,6 +33,7 @@
     <table id="pixelCanvas">
     </table>
 
-    <script src="designs.js"></script>
+    <script src="./designs.js"></script>
 </body>
+
 </html>
